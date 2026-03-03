@@ -28,8 +28,7 @@
     </header>
     <section id="sobre">
         <h2> Sobre mim</h2>
-        <IMG src="imagem.PNG" title="Spiderman"
-            alt="foto do perfil">
+        <IMG src="imagem.PNG" title="Spiderman" alt="foto do perfil">
         <!-- o atributo alt retorna a informação alternativa 
             quando a imagem não carregar ou ficar indisponível -->
         <article>
@@ -56,6 +55,43 @@
             <p> Esse foi o primeiro que desenvolvi, estudando front</p>
         </article>
     </section>
+    <section id="habilidades">
+
+        <h2>Habilidades e Tecnolgias</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Html</td>
+                    <td>iniciante</td>
+                    <td>capaz de construir estruturas de páginas web semânticas e responsivas</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>intermediário</td>
+                    <td>Experiência com flexbox, grid e animações CSS</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para intereçãoes</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+
+
+    </section>
+
+
     <footer>
         <!-- nota de rodapé -->
         <p> direitos reservados</p>
@@ -71,33 +107,33 @@
 
                 Telefone: <a href="tel: +5548999999999">+5548999999999</a>
 
-        <form>
-            <label for="nome">Nome: </label>
-            <input type="text" id="nome" name="nome" required>  <br>
-            <!-- for nome linka com id e type linka com name -->
-             <label for="email">E-mail: </label>
-            <input type="email" id="email" name="email" required> <br>
-            <label for="telefone">Telefone: </label>
-            <input type="tel" id="telefone" name="telefone"> <br>
-            <label for="assunto">Assunto: </label>
-            <select name="assunto" id="assunto">
-                <option value="orçamento">orçamento</option>
-                <option value="dúvida">dúvida</option>
-                <option value="outro">outro</option>
-            </select>
-            <br>
-            <label for="mensagem">Mensagem: </label>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-            <br>
-            <input type="checkbox" id="inscricao" name="inscricao"> 
-            <!-- ID e identificadores de campo não podem ter acentos, 
+                <form>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="nome" required> <br>
+                    <!-- for nome linka com id e type linka com name -->
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email" required> <br>
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" id="telefone" name="telefone"> <br>
+                    <label for="assunto">Assunto: </label>
+                    <select name="assunto" id="assunto">
+                        <option value="orçamento">orçamento</option>
+                        <option value="dúvida">dúvida</option>
+                        <option value="outro">outro</option>
+                    </select>
+                    <br>
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+                    <br>
+                    <input type="checkbox" id="inscricao" name="inscricao">
+                    <!-- ID e identificadores de campo não podem ter acentos, 
                     cedilhas ou nomes maiúsc. -->
-            <label for="incricao"> Deseja receber minha newsletter? Fique por dentro.</label>
-            <br>
-            <input type="submit" value="Enviar mensagem">
+                    <label for="incricao"> Deseja receber minha newsletter? Fique por dentro.</label>
+                    <br>
+                    <input type="submit" value="Enviar mensagem">
 
-        </form>
-    </address>
+                </form>
+            </address>
         </section>
     </footer>
 </body>
